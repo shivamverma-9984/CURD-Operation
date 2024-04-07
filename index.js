@@ -9,7 +9,7 @@ require("./db/connection.js");
 
 app.use(express.json());
 
-app.use("/user",route)
+app.use("/api/user",route)
 
 
 app.listen(port, () => {
